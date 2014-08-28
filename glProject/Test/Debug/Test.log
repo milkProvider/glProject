@@ -1,0 +1,8 @@
+﻿  main.cpp
+  BMesh.cpp
+  BImporter.cpp
+c:\users\milkprovider\documents\visual studio 2010\projects\test\test\bimporter.cpp(87): warning C4100: 'pRoot' : unreferenced formal parameter
+  BGameObject.cpp
+  Generating Code...
+BGameObject.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Test.vcxproj -> C:\Users\milkProvider\Documents\Visual Studio 2010\Projects\Test\Debug\Test.exe
