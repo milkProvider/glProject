@@ -1,5 +1,84 @@
-﻿  Skipping... (no relevant changes detected)
-  main.cpp
+﻿  main.cpp
+  GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
   BShader.cpp
+BShader.cpp(110): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+BShader.cpp(111): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
   BMesh.cpp
-  Test.vcxproj -> C:\Users\milkProvider\Documents\Visual Studio 2010\Projects\Test\x64\Debug\Test.exe
+BMesh.cpp(17): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_2_1::FbxLongLong', possible loss of data
+BMesh.cpp(71): warning C4244: '=' : conversion from 'fbxsdk_2014_2_1::FbxDouble' to 'float', possible loss of data
+BMesh.cpp(82): warning C4244: '=' : conversion from 'fbxsdk_2014_2_1::FbxDouble' to 'float', possible loss of data
+BMesh.cpp(189): warning C4244: 'initializing' : conversion from 'const fbxsdk_2014_2_1::FbxUInt64' to 'int', possible loss of data
+BMesh.cpp(385): warning C4244: '=' : conversion from 'fbxsdk_2014_2_1::FbxDouble' to 'float', possible loss of data
+BMesh.cpp(413): warning C4244: 'initializing' : conversion from 'const fbxsdk_2014_2_1::FbxUInt64' to 'int', possible loss of data
+BMesh.cpp(418): warning C4244: 'argument' : conversion from 'float' to 'const fbxsdk_2014_2_1::FbxLongLong', possible loss of data
+BMesh.cpp(581): warning C4244: 'argument' : conversion from 'fbxsdk_2014_2_1::FbxDouble' to 'GLfloat', possible loss of data
+BMesh.cpp(581): warning C4244: 'argument' : conversion from 'fbxsdk_2014_2_1::FbxDouble' to 'GLfloat', possible loss of data
+BMesh.cpp(581): warning C4244: 'argument' : conversion from 'fbxsdk_2014_2_1::FbxDouble' to 'GLfloat', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(163): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(247) : see reference to function template instantiation 'std::_Pair_base<_Ty1,_Ty2>::_Pair_base<int&,_Ty>(_Other1,_Other2 &&)' being compiled
+          with
+          [
+              _Ty1=int,
+              _Ty2=int,
+              _Ty=unsigned __int64,
+              _Other1=int &,
+              _Other2=unsigned __int64
+          ]
+          BMesh.cpp(193) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2>::pair<int&,unsigned __int64>(_Other1,_Other2 &&)' being compiled
+          with
+          [
+              _Ty1=int,
+              _Ty2=int,
+              _Other1=int &,
+              _Other2=unsigned __int64
+          ]
+  BImporter.cpp
+  BGameObject.cpp
+  BCamera.cpp
+  BAnimClip.cpp
+  BAnimation.cpp
+  Generating Code...
+  stb_image_aug.c
+stb_image_aug.c(177): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+stb_image_aug.c(251): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+stb_image_aug.c(303): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+stb_image_aug.c(1557): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+stb_image_aug.c(2394): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+stb_image_aug.c(2709): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+stb_image_aug.c(2995): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+stb_image_aug.c(3209): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+stb_image_aug.c(3548): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+stb_image_aug.c(3644): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+c:\users\milkprovider\documents\github\glproject\glproject\test\stbi_DDS_aug_c.h(362): warning C4018: '>' : signed/unsigned mismatch
+c:\users\milkprovider\documents\github\glproject\glproject\test\stbi_DDS_aug_c.h(366): warning C4018: '>' : signed/unsigned mismatch
+c:\users\milkprovider\documents\github\glproject\glproject\test\stbi_DDS_aug_c.h(390): warning C4018: '<' : signed/unsigned mismatch
+c:\users\milkprovider\documents\github\glproject\glproject\test\stbi_DDS_aug_c.h(427): warning C4018: '<' : signed/unsigned mismatch
+c:\users\milkprovider\documents\github\glproject\glproject\test\stbi_DDS_aug_c.h(498): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+  SOIL.c
+SOIL.c(1719): warning C4018: '<=' : signed/unsigned mismatch
+SOIL.c(1729): warning C4018: '<' : signed/unsigned mismatch
+SOIL.c(1841): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+SOIL.c(1867): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+  image_helper.c
+image_helper.c(325): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+image_helper.c(366): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+image_helper.c(373): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+image_helper.c(415): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+image_helper.c(422): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+  image_DXT.c
+image_DXT.c(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+  Generating Code...
+  Test.vcxproj -> C:\Users\milkProvider\Documents\GitHub\glProject\glProject\x64\Debug\Test.exe
